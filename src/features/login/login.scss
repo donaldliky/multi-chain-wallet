@@ -1,0 +1,16 @@
+.loginBody {
+  width: 100%;
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+
+    img {
+      width: 150;
+      height: 150;
+    }
+  }
+}

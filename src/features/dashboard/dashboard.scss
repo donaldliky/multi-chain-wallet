@@ -1,0 +1,37 @@
+.dashboardBody {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    z-index: 1000;
+
+    .signout {
+      background-color: black;
+      padding: 5px 10px;
+      border: 1px solid #F5DEB3;
+      border-radius: 5px;
+      color: #F5DEB3;
+    }
+  }
+
+  .tableWidth {
+    width: 100%;
+  }
+
+  .center {
+    width: 90%;
+    margin-left: 5%;
+
+    th,
+    td {
+      color: #F5DEB3;
+    }
+  }
+}
